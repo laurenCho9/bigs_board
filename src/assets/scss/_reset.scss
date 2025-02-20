@@ -4,11 +4,8 @@
 body {
   font-family: $default-font-stack;
   font-size: $default-font-size;
-}
-
-.logo-font {
-  font-family: $logo-font-stack;
-  font-weight: 900;
+  font-weight: 700;
+  color: $gray-300;
 }
 
 // position
@@ -41,28 +38,38 @@ body {
   z-index: 103;
 }
 
-// font-size
-h1 {
-  font-size: 108px;
+// margin, padding
+
+// flex
+.flex {
+  display: flex;
 }
-h2,
-.title-1 {
-  font-size: 40px;
-}
-h3,
-.title-2 {
-  font-size: 32px;
+.flex-inline {
+  display: inline-flex;
 }
 
-.text-1 {
-  font-size: 24px;
+.align-center {
+  align-items: center;
 }
-.text-2 {
-  font-size: 20px;
+.align-end {
+  align-items: flex-end;
 }
-.text-3 {
-  font-size: 18px;
+.align-baseline {
+  align-items: baseline;
 }
-.text-4 {
-  font-size: 16px;
+
+.gap-8 {
+  gap: 8px;
+}
+.gap-12 {
+  gap: 12px;
+}
+.gap-16 {
+  gap: 16px;
+}
+.gap-20 {
+  gap: 20px;
+}
+.gap-24 {
+  gap: 24px;
 }

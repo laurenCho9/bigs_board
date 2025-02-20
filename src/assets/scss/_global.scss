@@ -13,18 +13,17 @@ $default-font-size: 14px;
 // primary-color
 $white: #fff;
 $teal: #2aa7be;
+$dark-teal: #1f99b0;
 $navy: #111d37;
 
 // point-color
-$point-color: (#1b69cf, #f13c51);
+$point-color: (#1475f4, #ff4d4f);
 
 // gray-scale
-$gray-100: #d9d9d9;
-$gray-200: #acacac;
-$gray-300: #888888;
-$gray-400: #606060;
-$gray-500: #333333;
+$gray-100: #eeeff1;
+$gray-200: #b9bcc1;
+$gray-300: #333333;
 $black: #000;
 
 // box-shadow
-$default-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+$default-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.1);
