@@ -1,1 +1,6 @@
 @import "scss-reset";
+
+body {
+  font-family: $default-font-stack;
+  font-size: $default-font-size;
+}
