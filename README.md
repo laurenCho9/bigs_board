@@ -3,10 +3,6 @@
 
 ## Pages
 # 404 Notfound
-<div style="box-shadow: 0px 15px 32px 0px rgba(112, 144, 176, 0.1);">
+<div style="box-shadow: 0px 15px 32px 0px rgba(112, 144, 176, 0.1); display: inline-block; border-radius: 8px; overflow: hidden; width:240px;">
   <img width="341" alt="image" src="https://github.com/user-attachments/assets/fe6a9d58-2d3d-4a56-9720-ebe24761d915"  />
-</div>
-
-<div style="box-shadow: 0px 15px 32px 0px rgba(112, 144, 176, 0.1); display: inline-block; border-radius: 8px; overflow: hidden;">
-  <img width="341" alt="image" src="https://github.com/user-attachments/assets/fe6a9d58-2d3d-4a56-9720-ebe24761d915" />
 </div>
