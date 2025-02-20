@@ -1,17 +1,30 @@
 // font
 @import url(../font/NotoSansKR/NotoSansKR.css);
+@import url(../font/Pretendard/Pretendard.css);
 
-/*
-  "Noto Sans KR",  // 기본 웹 폰트
-  -apple-system, BlinkMacSystemFont, // macOS 및 iOS 기본 폰트 (San Francisco)
-  "Segoe UI", Roboto, "Helvetica Neue", // Windows, Android, macOS 대체 폰트
-  "Malgun Gothic", "맑은 고딕", // Windows 기본 한글 폰트
-  "Apple SD Gothic Neo", // macOS, iOS 기본 한글 폰트
-  "Dotum", "돋움", // 레거시 Windows 대체 폰트
-  Arial, sans-serif; // 최후의 폴백 (웹 안전 폰트)
-  */
+$logo-font-stack: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
 $default-font-stack: "Noto Sans KR", -apple-system, BlinkMacSystemFont,
   "Segoe UI", Roboto, "Helvetica Neue", "Malgun Gothic", "맑은 고딕",
   "Apple SD Gothic Neo", "Dotum", "돋움", Arial, sans-serif;
 
 $default-font-size: 14px;
+
+// primary-color
+$white: #fff;
+$teal: #2aa7be;
+$navy: #111d37;
+
+// point-color
+$point-color: (#1b69cf, #f13c51);
+
+// gray-scale
+$gray-100: #d9d9d9;
+$gray-200: #acacac;
+$gray-300: #888888;
+$gray-400: #606060;
+$gray-500: #333333;
+$black: #000;
+
+// box-shadow
+$default-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);

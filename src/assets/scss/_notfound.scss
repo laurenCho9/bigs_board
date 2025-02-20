@@ -1,0 +1,34 @@
+.not-found-wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .bigs-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    .outside {
+      width: 80px;
+      height: 80px;
+      background-color: $teal;
+      transform: rotate(65deg);
+      .inside {
+        width: 80px;
+        height: 80px;
+        background-color: $navy;
+        transform: rotate(25deg);
+        display: flex;
+        align-items: center;
+      }
+    }
+    h1 {
+      color: $white;
+      transform: rotate(-135deg);
+    }
+    p {
+      color: $navy;
+      font-weight: 600;
+    }
+  }
+}

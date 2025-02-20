@@ -1,6 +1,68 @@
 @import "scss-reset";
 
+// default
 body {
   font-family: $default-font-stack;
   font-size: $default-font-size;
+}
+
+.logo-font {
+  font-family: $logo-font-stack;
+  font-weight: 900;
+}
+
+// position
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+.z-index-2 {
+  z-index: 2;
+}
+.z-index-3 {
+  z-index: 3;
+}
+.z-index-100 {
+  z-index: 100;
+}
+.z-index-101 {
+  z-index: 101;
+}
+.z-index-102 {
+  z-index: 102;
+}
+.z-index-103 {
+  z-index: 103;
+}
+
+// font-size
+h1 {
+  font-size: 108px;
+}
+h2,
+.title-1 {
+  font-size: 40px;
+}
+h3,
+.title-2 {
+  font-size: 32px;
+}
+
+.text-1 {
+  font-size: 24px;
+}
+.text-2 {
+  font-size: 20px;
+}
+.text-3 {
+  font-size: 18px;
+}
+.text-4 {
+  font-size: 16px;
 }
