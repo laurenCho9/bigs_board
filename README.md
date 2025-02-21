@@ -5,3 +5,6 @@
 ### 1) 404 Not found
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/fe6a9d58-2d3d-4a56-9720-ebe24761d915"  />
 
+### 2) 회원가입
+
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/1844be90-9a97-458e-9081-281136108620" />
